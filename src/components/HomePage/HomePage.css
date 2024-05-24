@@ -1,0 +1,85 @@
+/* Add these styles to a CSS file, e.g., Homepage.css */
+
+body {
+    background-color: #f8f9fa;
+    background-image: url('../../images/lotus.jpg');
+    background-size: cover;
+    color: #5b5959;
+  }
+  
+  h1, h2, h5 {
+    color: #323131;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size:xx-large;
+    font-weight: bold;
+  }
+  
+  label {
+    font-weight:bold;
+    color: #120f0f;
+    margin-right: 0.5rem;
+    font-size: larger;
+  }
+  
+  .btn {
+    margin-left: 0.5rem;
+  }
+  
+  table {
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    padding: 0.75rem;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #200205;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  @media (max-width: 576px) {
+    table {
+      font-size: 0.875rem;
+    }
+  
+    th, td {
+      padding: 0.5rem;
+    }
+  }
+
+  .center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .center-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .center-item label {
+    margin-right: 0.5rem;
+  }
+  
+  .center-item button {
+    margin-left: 0.5rem;
+  }
